@@ -5,8 +5,27 @@
     top: 55px;
     background-color: white;
     width: 72px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(220, 211, 211);
-    border-top: none;
+    z-index:200;
+    padding-top: 5px;
+}
+.sidebar-link{
+    height: 74px;
+    font-size: 10px;
+    font-family: Roboto, arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.sidebar-link:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+.media{
+    max-width: 1200px;
 }
