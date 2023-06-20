@@ -1,0 +1,22 @@
+div{
+    font-family: arial;
+}
+.sidebar{
+    background-color: green;
+    color: white;
+    width: 100px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.model-title{
+    font-weight: bold;
+}
+.model{
+    border-width: 1px;
+    border-width: 400px;
+    background-color: white;
+    height: 200px;
+    border-radius: 4px;
+}

@@ -1,0 +1,78 @@
+.left-sidebar{
+    left: 0;
+    width: 100px;
+    background-color: rgb(46, 45, 45);
+    bottom: 0;
+    position: fixed;
+    top: 0;
+}
+.red-pic, .Ve, .tech-pic{
+    border-radius: 40px;
+    margin-left: 15px;
+    
+}
+
+.red-pic{
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+.Ve{
+    padding-bottom: 5px;
+}
+.middle{
+    font-family: arial;
+    background-color: rgb(88, 84, 84);
+    width: 300px;
+    position:fixed;
+    padding-left: 15px;
+    top: 0;
+    bottom: 0;
+    margin-left:92px;
+    
+}
+.header{
+    display: flex;
+    flex:1;
+    align-items:top;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.title{
+    color: white;
+}
+.plus{
+    padding-right: 15px;
+    font-size: 25px;
+    color: grey;
+}
+.hash-tags{
+    color: grey;
+    font-size: 18px;
+}
+.hashtag1{
+padding-right: 10px;
+display: inline-block;
+
+}
+.new-video-container{
+    display: flex;
+    flex:1;
+    align-items:top;
+    
+    flex-direction: row;
+}
+.updates-container{
+    display: flex;
+    flex:1;
+    align-items:top;
+    margin-top: 15px;
+    flex-direction: row;
+}
+.faq-container{
+    display: flex;
+    flex:1;
+    align-items:top;
+    margin-top: 15px;
+    flex-direction: row;
+}

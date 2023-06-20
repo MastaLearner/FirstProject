@@ -1,0 +1,97 @@
+body{
+    font-family: arial;
+    margin: 0;
+}
+.kitten{
+    border-radius: 45px;
+    width: 53px;
+    height: 50px;
+    display: inline-block;
+   
+
+}
+.time{
+    color: grey;
+    font-size: 16px;
+    align-items: top;
+    display: inline-block;
+}
+.all-inboxes{
+    display: block;
+    color: grey;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    width: 250px;
+  
+    flex-direction: row;
+    align-items: top;
+}
+.sales{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.message{
+    color: grey;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.all-around{
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+   
+}
+.email-container{
+    margin-left: 10px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-bottom: 20px;
+}
+.email-header{
+    justify-content: space-between;
+}
+.main-block{
+    margin-top: 20px;
+    flex-direction: row;
+    display: flex;
+    margin-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    width: 350px;
+    border-color: rgb(209, 201, 201);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.block{
+    border: none;
+    background-color: rgb(209, 201, 201);
+    width: 105px;
+    height: 90px;
+    
+}
+.website{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.youtube{
+    margin-bottom: 5px;
+    color: grey;
+}
